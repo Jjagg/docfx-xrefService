@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: NameSpace
+  commentId: N:NameSpace
+  id: NameSpace
+  children:
+  - NameSpace.Class1
+  langs:
+  - csharp
+  - vb
+  name: NameSpace
+  nameWithType: NameSpace
+  fullName: NameSpace
+  type: Namespace
+  assemblies:
+  - MyProject
+references:
+- uid: NameSpace.Class1
+  commentId: T:NameSpace.Class1
+  isExternal: false
+  name: Class1
+  nameWithType: Class1
+  fullName: NameSpace.Class1

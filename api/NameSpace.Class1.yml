@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: NameSpace.Class1
+  commentId: T:NameSpace.Class1
+  id: Class1
+  parent: NameSpace
+  children:
+  - NameSpace.Class1.Equals(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: Class1
+  nameWithType: Class1
+  fullName: NameSpace.Class1
+  type: Class
+  source:
+    remote:
+      path: Class1.cs
+      branch: master
+      repo: https://github.com/Jjagg/docfx-xrefService.git
+    id: Class1
+    path: Class1.cs
+    startLine: 4
+  assemblies:
+  - MyProject
+  namespace: NameSpace
+  syntax:
+    content: 'public class Class1 : object'
+    content.vb: >-
+      Public Class Class1
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: NameSpace.Class1.Equals(System.Object)
+  commentId: M:NameSpace.Class1.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NameSpace.Class1
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: Class1.Equals(Object)
+  fullName: NameSpace.Class1.Equals(System.Object)
+  type: Method
+  source:
+    remote:
+      path: Class1.cs
+      branch: master
+      repo: https://github.com/Jjagg/docfx-xrefService.git
+    id: Equals
+    path: Class1.cs
+    startLine: 6
+  assemblies:
+  - MyProject
+  namespace: NameSpace
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overload: NameSpace.Class1.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: NameSpace
+  commentId: N:NameSpace
+  isExternal: false
+  name: NameSpace
+  nameWithType: NameSpace
+  fullName: NameSpace
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: NameSpace.Class1.Equals*
+  commentId: Overload:NameSpace.Class1.Equals
+  isExternal: false
+  name: Equals
+  nameWithType: Class1.Equals
+  fullName: NameSpace.Class1.Equals
+- uid: System.Boolean
+  commentId: '!:System.Boolean'
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,8 @@
+obj/
+bin/
+
+*~
+_*
+
+manifest.json
+
